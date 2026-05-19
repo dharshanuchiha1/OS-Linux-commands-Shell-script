@@ -51,14 +51,14 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![cat file3](img/03.png)
 comm file1 file2
  ## OUTPUT
-
+![cat file4](img/04.png)
  
 diff file1 file2
 ## OUTPUT
-
+![cat file5](img/05.png)
 
 #Filters
 
@@ -81,18 +81,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![cat file6](img/06.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![cat file7](img/07.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![cat file8](img/08.png)
 
 cat < newfile 
 ```
@@ -106,29 +106,29 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![cat file9](img/09.png)
 
 
 grep hello newfile 
 ## OUTPUT
-
+![cat file10](img/10.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![cat file11](img/11.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![cat file12](img/12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![cat file13](img/13.png)
 
 
 
@@ -139,7 +139,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![cat file15](img/15.png)
 
 cat < newfile 
 ```
@@ -162,28 +162,28 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![cat file16](img/16.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![cat file17](img/17.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![cat file18](img/18.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![cat file19](img/19.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![cat file20](img/20.png)
 
 
 egrep '(World$)' newfile 
