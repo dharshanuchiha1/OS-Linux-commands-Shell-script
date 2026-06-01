@@ -848,7 +848,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![cat file70](img/70.png)
 
 cat forctype.sh 
 ```bash
@@ -875,7 +875,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![cat file71](img/71.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -893,7 +893,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![cat file72](img/72.png)
  
 cat forbreak.sh 
 ```bash
@@ -914,7 +914,7 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ ![cat file73](img/73.png)
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -935,7 +935,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![cat file74](img/74.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -983,7 +983,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
+![cat file75](img/75.png)
  
  ./funcex.sh 1 2
 
@@ -1017,7 +1017,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![cat file76](img/76.png)
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1030,7 +1030,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![cat file77](img/77.png)
  
 cat > nc.awk
 ```bash
@@ -1061,7 +1061,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![cat file78](img/78.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1088,7 +1088,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![cat file79](img/79.png)
 
 # RESULT:
 The Commands are executed successfully.
